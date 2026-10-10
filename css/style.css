@@ -1,0 +1,79 @@
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  min-height: 80vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../img/banner.jpg") center/cover no-repeat;
+}
+
+.banner h1 {
+  color: #ffc107;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card-img-top {
+  height: 230px;
+  object-fit: cover;
+}
+
+#sobre img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+.carousel-item {
+  padding: 30px 65px;
+  min-height: 160px;
+}
+
+.btn-warning {
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .banner {
+    min-height: 65vh;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+
+  .carousel-item {
+    padding: 20px 35px;
+  }
+
+  .carousel-item p {
+    font-size: 1rem !important;
+  }
+}
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
